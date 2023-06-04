@@ -1,0 +1,12 @@
+/*
+!/.gitignore
+!/README.md
+
+!/id1
+/id1/*
+!/id1/autoexec.cfg
+
+!/id1-classic
+/id1-classic/*
+!/id1-classic/autoexec.cfg
+
