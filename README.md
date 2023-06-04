@@ -59,6 +59,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 - [Slipseer](https://www.slipseer.com/)
 - [Quaddicted](https://www.quaddicted.com/)
 - [func_MsgBoard](https://www.celephais.net/board/forum.php)
+- [r/quake](https://www.reddit.com/r/quake/)
 - Discord: Quake Mapping
 - Discord: Quake Enhanced Add-on Server
 - Discord: LibreQuake
