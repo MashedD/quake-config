@@ -31,6 +31,10 @@ Note that for example when you load start map of Explore Jam 3 and change visual
 When using this config don't forget to change `name` and `hostname` to you liking.
 I recommend getting [Quake Injector](https://www.quaddicted.com/tools/quake_injector), sort by user score and play with [Ironwail](https://github.com/andrei-drexler/ironwail/releases) engine with `look1_iw` settings
 
+## Incompatibilities
+
+- [Re:Mobilize](https://www.slipseer.com/index.php?resources/re-mobilize.239/) - comment out `MOUSE2` binding in `id1/autoexec.cfg` using `//` in front of the line. Alternative: `bind "MOUSE2" "+hook"` after loading a mod.
+
 ## Addons
 
 I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives in case files were loose, because Ironwail handles `pak` files better. Remember that having `pak2.pak` and then `pak4.pak` without `pak3.pak` then `pak4.pak` will not be loaded.
@@ -66,6 +70,10 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 - Discord: There are more - you can find them if you're interested in it
 - Podcast: [In the Keep](https://inthekeep.com/)
 - Podcast: Quakecast (can be found on Spotfiy and other places)
+
+## Notes
+
+- there's only `autoexec.cfg` without using `exec filename.cfg` because there is no need to keep everything separate and performance is better. You can see for your self by having a keybind that loads a few exec-s.
 
 ## TODO
 
