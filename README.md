@@ -53,6 +53,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - `pak2.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
     - `pak3.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
     - `pak4.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/)
+    - optionally: `pak5.pak`: [Quake 100% Nightmare demos](https://speeddemosarchive.com/quake/). With this add to `autoexec.cfg`: `playdemo start` and `cl_startdemos 1`. Demo for e2m6 is incompatible with Enhanced version.
 - `hipnotic` (Mission Pack 1: Scourge of Armagon) / `rogue` (Mission Pack 2: Dissolution of Eternity)
     - `pak1.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
     - Enhanced: `pak2.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake)
