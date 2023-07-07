@@ -49,6 +49,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - optionally: `pak4.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake) if not using `pak2.pak`
     - optionally: `pak5.pak`: [Upgaded Armor](https://www.moddb.com/games/quake/addons/upgraded-armor-for-quake-1)
     - optionally: `progs.dat`: [Reignited](https://www.moddb.com/mods/quake-reignited) or [Copper](http://lunaran.com/copper/)
+    - `../QuakeEX.kpf`: don't forget about this one as it holds translations
 - Classic: `id1`
     - optionally: `pak2.pak`: [Fullbright patches](https://github.com/c-d-a/q1fbfix): when using different models it might be best to move `progs` folder from here or keep it high in paks order (low number)
     - `pak3.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
