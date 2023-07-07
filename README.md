@@ -48,13 +48,14 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - optionally: `pak3.pak`: Mindgrid - all sounds except for demon
     - optionally: `pak4.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake) if not using `pak2.pak`
     - optionally: `pak5.pak`: [Upgaded Armor](https://www.moddb.com/games/quake/addons/upgraded-armor-for-quake-1)
-    - progs.dat: [Reignited](https://www.moddb.com/mods/quake-reignited)
+    - optionally: `progs.dat`: [Reignited](https://www.moddb.com/mods/quake-reignited) or [Copper](http://lunaran.com/copper/)
 - Classic: `id1`
-    - `pak2.pak`: [Fullbright patches](https://github.com/c-d-a/q1fbfix): when using different models it might be best to move `progs` folder from here or keep it high in paks order (low number)
+    - optionally: `pak2.pak`: [Fullbright patches](https://github.com/c-d-a/q1fbfix): when using different models it might be best to move `progs` folder from here or keep it high in paks order (low number)
     - `pak3.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
     - `pak4.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
     - `pak5.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/)
     - optionally: `pak6.pak`: [Quake 100% Nightmare demos](https://speeddemosarchive.com/quake/): use Dzip from SpeedDemosArchive site to extract compressed (.dz) demo. In case you've downloaded all_5716.dz Dzip should extract .pak file from it that contains all demos.  Add to `autoexec.cfg`: `playdemo start` and `cl_startdemos 1`. Note that demo for e2m6 is incompatible with Enhanced version
+    - optionally: `progs.dat`: [CleanFixedQuakeC](https://github.com/Jason2Brownlee/QuakeCGPL)
     - `music`: make sure you have this folder with `track02-track11.{mp3,ogg}` in there (not all Quake releases have music by default)
 - Map essentials:
     - [100m](https://speeddemosarchive.com/quake/contests/100m.html): nice for learning bunny hopping, usually played with JoeQuake. You can find there also 110m and 400m
@@ -64,7 +65,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - Enhanced: `pak2.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake)
     - Classic: `pak2.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
 
-### Communities
+### Communities and links
 
 - [Slipseer](https://www.slipseer.com/)
 - [Quaddicted](https://www.quaddicted.com/)
@@ -74,9 +75,14 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 - Discord: Quake Mapping
 - Discord: Quake Enhanced Add-on Server
 - Discord: LibreQuake
-- Discord: There are more - you can find them if you're interested in it
+- Discord: There are more - you can find them if you're interested in it. ComfyByTheFire has nice sounds compilation on her Discord (The Campfire)
 - Podcast: [In the Keep](https://inthekeep.com/)
 - Podcast: Quakecast (can be found on Spotfiy and other places)
+- [Mod DB: Addons](https://www.moddb.com/games/quake/addons)
+- [Mod DB: Mods](https://www.moddb.com/games/quake/mods)
+- [SpeedDemosArchive](https://quake.speeddemosarchive.com/)
+- [Thingiverse](https://www.thingiverse.com/search?q=quake) - models for 3D printers
+- [The Quake Marine card model](http://home.clara.net/rogerpattenden/quake-marine.html) - I can confirm that it is still possible to order as it is 2023 and I've received 2 models. Contant by mail for quote, payment is done through PayPal using same mail as for contact
 
 ## Notes
 
