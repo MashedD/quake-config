@@ -50,10 +50,15 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - optionally: `pak5.pak`: [Upgaded Armor](https://www.moddb.com/games/quake/addons/upgraded-armor-for-quake-1)
     - progs.dat: [Reignited](https://www.moddb.com/mods/quake-reignited)
 - Classic: `id1`
-    - `pak2.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
-    - `pak3.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
-    - `pak4.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/)
-    - optionally: `pak5.pak`: [Quake 100% Nightmare demos](https://speeddemosarchive.com/quake/). With this add to `autoexec.cfg`: `playdemo start` and `cl_startdemos 1`. Demo for e2m6 is incompatible with Enhanced version.
+    - `pak2.pak`: [Fullbright patches](https://github.com/c-d-a/q1fbfix): when using different models it might be best to move `progs` folder from here or keep it high in paks order (low number)
+    - `pak3.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
+    - `pak4.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
+    - `pak5.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/)
+    - optionally: `pak6.pak`: [Quake 100% Nightmare demos](https://speeddemosarchive.com/quake/): use Dzip from SpeedDemosArchive site to extract compressed (.dz) demo. In case you've downloaded all_5716.dz Dzip should extract .pak file from it that contains all demos.  Add to `autoexec.cfg`: `playdemo start` and `cl_startdemos 1`. Note that demo for e2m6 is incompatible with Enhanced version
+    - `music`: make sure you have this folder with `track02-track11.{mp3,ogg}` in there (not all Quake releases have music by default)
+- Map essentials:
+    - [100m](https://speeddemosarchive.com/quake/contests/100m.html): nice for learning bunny hopping, usually played with JoeQuake. You can find there also 110m and 400m
+    - [qdeck16](https://www.celephais.net/board/view_thread.php?id=62138): nice map for multiplayer, based on popular map from Unreal Tournament
 - `hipnotic` (Mission Pack 1: Scourge of Armagon) / `rogue` (Mission Pack 2: Dissolution of Eternity)
     - `pak1.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
     - Enhanced: `pak2.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake)
@@ -65,6 +70,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 - [Quaddicted](https://www.quaddicted.com/)
 - [func_MsgBoard](https://www.celephais.net/board/forum.php)
 - [r/quake](https://www.reddit.com/r/quake/)
+- [Lemmy: Quake](https://lemmy.world/c/quake)
 - Discord: Quake Mapping
 - Discord: Quake Enhanced Add-on Server
 - Discord: LibreQuake
@@ -79,7 +85,8 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 ## TODO
 
 I modify things from time to time.
-- optionally: settings for Darkplaces, Quake 1.5, Epsilon build
+- optionally: settings for Darkplaces/Zircon, Quake 1.5/Epsilon build
+- optionally: settings for FTE
 - optionally: settings for Kex
 - optionally: settings for JoeQuake
 - optionally: settings for ChadQuake
