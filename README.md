@@ -55,6 +55,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - `pak4.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
     - `pak5.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/)
     - optionally: `pak6.pak`: [Quake 100% Nightmare demos](https://speeddemosarchive.com/quake/): use Dzip from SpeedDemosArchive site to extract compressed (.dz) demo. In case you've downloaded all_5716.dz Dzip should extract .pak file from it that contains all demos.  Add to `autoexec.cfg`: `playdemo start` and `cl_startdemos 1`. Note that demo for e2m6 is incompatible with Enhanced version
+    - optionally: `pak7.pak`: [Greenwood's mild model pack](https://alkalinequake.wordpress.com/files-links/)
     - optionally: `progs.dat`: [CleanFixedQuakeC](https://github.com/Jason2Brownlee/QuakeCGPL)
     - `music`: make sure you have this folder with `track02-track11.{mp3,ogg}` in there (not all Quake releases have music by default)
 - Map essentials:
@@ -64,6 +65,8 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - `pak1.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
     - Enhanced: `pak2.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake)
     - Classic: `pak2.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
+
+In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.php?id=1018) mod plays nice with it.
 
 ### Communities and links
 
