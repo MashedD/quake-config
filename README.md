@@ -82,7 +82,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 - [Mod DB: Mods](https://www.moddb.com/games/quake/mods)
 - [SpeedDemosArchive](https://quake.speeddemosarchive.com/)
 - [Thingiverse](https://www.thingiverse.com/search?q=quake) - models for 3D printers
-- [The Quake Marine card model](http://home.clara.net/rogerpattenden/quake-marine.html) - I can confirm that it is still possible to order as it is 2023 and I've received 2 models. Contant by mail for quote, payment is done through PayPal using same mail as for contact
+- [The Quake Marine card model](http://home.clara.net/rogerpattenden/quake-marine.html) - I can confirm that it is still possible to order as it is 2023 and I've received 2 models. Contact by mail for quote, payment is done through PayPal using same mail as for contact
 
 ## Notes
 
