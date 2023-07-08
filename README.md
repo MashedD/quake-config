@@ -9,6 +9,7 @@
     - `g`: cheat: immortality
     - `b`: cheat: show bounding boxes, with Ironwail you can pair it with r_showbboxes_filer to display only what you need (like keys, items, monsters, etc.)
     - `x`/`q`/`r`/`v`: switching weapons (closer to w/s/a/d for quicker switching, might be useful in multiplayer)
+    - `n`: JoeQuake: toggle speed running mode (power bunnies, speedmeter, stats)
     - `\`: display FPS
     - `F10`: change visual and other settings, by default it was `quit`. Use `look{0,1,2,3}_{iw,qs,qss,qssm,vk}` before once, more about it below
     - `F11`: unbinded - does nothing, because sometimes instead of F10 it's easy to accidentally press F11
@@ -25,6 +26,7 @@
     - QuakeSpasm-Spiked: `look{0,1,2,3}_qss`: see `look{0,1,2,3}_iw`
     - QuakeSpasm-Spiked Multiplayer: `look{0,1,2,3}_qssm`: see `look{0,1,2,3}_iw`
     - vkQuake: `look{0,1,2,3}_vk`: see `look{0,1,2,3}_iw`
+    - JoeQuake: `look{1,2,3}_joe`: see `look{1,2,3}_iw`
 
 In Ironwail I prefer `look1_iw`. `F10` switches to `look2_iw`, then `look3_iw` which then to `look0_iw` and so on.
 Note that for example when you load start map of Explore Jam 3 and change visuals it will affect maps fog settings. You might want to issue `restart` or load a save.
@@ -91,12 +93,5 @@ In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.
 ## Notes
 
 - there's only `autoexec.cfg` without using `exec filename.cfg` because there is no need to keep everything separate and performance is better. You can see for your self by having a keybind that loads a few exec-s.
-
-## TODO
-
-I modify things from time to time.
-- optionally: settings for Darkplaces/Zircon, Quake 1.5/Epsilon build
-- optionally: settings for FTE
-- optionally: settings for Kex
-- optionally: settings for JoeQuake
-- optionally: settings for ChadQuake
+- things here are constantly changing and improving, feel free to fork it and customize things your way
+- contact: sl8code (at) gmail.com
