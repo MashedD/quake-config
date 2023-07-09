@@ -4,7 +4,10 @@
 
 - keybindings:
     - `mouse scroll`: make changing weapon more natural (scroll down for previous weapon)
+    - `middle mouse button`: JoeQuake: move forward (for power bunny hopping)
     - `right mouse button`: cheat: toggle no clipping
+    - `4th mouse button`: JoeQuake: fps 10-140 trick
+    - `5th mouse button`: Ironwail: zoom
     - `f`: cheat: toggle showing fullbrights. Useful in some maps. Might be considered cheating as it makes finding some secrets easier
     - `g`: cheat: immortality
     - `b`: cheat: show bounding boxes, with Ironwail you can pair it with r_showbboxes_filer to display only what you need (like keys, items, monsters, etc.)
