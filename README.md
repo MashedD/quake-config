@@ -4,8 +4,8 @@
 
 - keybindings:
     - `mouse scroll`: make changing weapon more natural (scroll down for previous weapon)
-    - `middle mouse button`: JoeQuake: move forward (for power bunny hopping)
     - `right mouse button`: cheat: toggle no clipping
+    - `right mouse button`: JoeQuake: move forward (for power bunny hopping)
     - `4th mouse button`: JoeQuake: fps 10-140 trick
     - `5th mouse button`: Ironwail: zoom
     - `f`: cheat: toggle showing fullbrights. Useful in some maps. Might be considered cheating as it makes finding some secrets easier
