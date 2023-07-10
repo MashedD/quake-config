@@ -33,8 +33,8 @@
 
 In Ironwail I prefer `look1_iw`. `F10` switches to `look2_iw`, then `look3_iw` which then to `look0_iw` and so on.
 Note that for example when you load start map of Explore Jam 3 and change visuals it will affect maps fog settings. You might want to issue `restart` or load a save.
-When using this config don't forget to change `name` and `hostname` to you liking.
-I recommend getting [Quake Injector](https://www.quaddicted.com/tools/quake_injector), sort by user score and play with [Ironwail](https://github.com/andrei-drexler/ironwail/releases) engine with `look1_iw` settings
+I recommend getting [Quake Injector](https://www.quaddicted.com/tools/quake_injector), sort by user score and play with [Ironwail](https://github.com/andrei-drexler/ironwail/releases) engine with `look1_iw` settings.
+When using JoeQuake don't forget to run with `+set s_khz 44` argument for better sound quality.
 
 ## Incompatibilities
 

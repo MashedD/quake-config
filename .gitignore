@@ -6,7 +6,10 @@
 /id1/*
 !/id1/autoexec.cfg
 
+!/joequake
+/joequake/*
+!/joequake/autoexec.cfg
+
 !/id1-classic
 /id1-classic/*
 !/id1-classic/autoexec.cfg
-
