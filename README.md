@@ -1,12 +1,17 @@
 # Quake 1 config + notes
 
+- there's only `autoexec.cfg` without using `exec filename.cfg` because there is no need to keep everything separate and performance is better
+- things here are constantly changing, feel free to fork it and customize your way
+- contact: sl8code (at) gmail.com
+
 ## Features
 
 - keybindings:
     - `mouse scroll`: make changing weapon more natural (scroll down for previous weapon)
     - `right mouse button`: cheat: toggle no clipping
     - `right mouse button`: JoeQuake: move forward (for power bunny hopping)
-    - `4th mouse button`: JoeQuake: fps 10-140 trick
+    - `4th mouse button`: JoeQuake: 10 FPS trick for 1 frame
+    - `5th mouse button`: JoeQuake: 10 FPS trick for button hold duration
     - `5th mouse button`: Ironwail: zoom
     - `f`: cheat: toggle showing fullbrights. Useful in some maps. Might be considered cheating as it makes finding some secrets easier
     - `g`: cheat: immortality
@@ -42,6 +47,16 @@ When using JoeQuake don't forget to run with `+set s_khz 44` argument for better
 
 I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives in case files were loose, because Ironwail handles `pak` files better. Remember that having `pak2.pak` and then `pak4.pak` without `pak3.pak` then `pak4.pak` will not be loaded.
 
+- Classic: `id1`
+    - [VisPatch](https://vispatch.sourceforge.net/): makes transparent water work
+    - optionally: `pak2.pak`: [Fullbright patches](https://github.com/c-d-a/q1fbfix): when using different models it might be best to move `progs` folder from here or keep it high in paks order (low number)
+    - `pak3.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
+    - `pak4.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
+    - `pak5.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/)
+    - optionally: `pak6.pak`: [Quake 100% Nightmare demos](https://speeddemosarchive.com/quake/): use Dzip from SpeedDemosArchive site to extract compressed (.dz) demo. In case you've downloaded all_5716.dz Dzip should extract .pak file from it that contains all demos.  Add to `autoexec.cfg`: `playdemo start` and `cl_startdemos 1`. Note that demo for e2m6 is incompatible with Enhanced version
+    - optionally: `pak7.pak`: [Greenwood's mild model pack](https://alkalinequake.wordpress.com/files-links/)
+    - optionally: `progs.dat`: [CleanFixedQuakeC](https://github.com/Jason2Brownlee/QuakeCGPL)
+    - `music`: make sure you have this folder with `track02-track11.{mp3,ogg}` in there (not all Quake releases have music by default)
 - Enhanced: `id1`
     - it already has remastered sounds - similar to `Sound Bulb` and `Seans Better Quality Sounds`
     - already has lits, but different than in classic
@@ -53,22 +68,14 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - optionally: `pak5.pak`: [Upgaded Armor](https://www.moddb.com/games/quake/addons/upgraded-armor-for-quake-1)
     - optionally: `progs.dat`: [Reignited](https://www.moddb.com/mods/quake-reignited) or [Copper](http://lunaran.com/copper/)
     - `../QuakeEX.kpf`: don't forget about this one as it holds translations
-- Classic: `id1`
-    - optionally: `pak2.pak`: [Fullbright patches](https://github.com/c-d-a/q1fbfix): when using different models it might be best to move `progs` folder from here or keep it high in paks order (low number)
-    - `pak3.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
-    - `pak4.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
-    - `pak5.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/)
-    - optionally: `pak6.pak`: [Quake 100% Nightmare demos](https://speeddemosarchive.com/quake/): use Dzip from SpeedDemosArchive site to extract compressed (.dz) demo. In case you've downloaded all_5716.dz Dzip should extract .pak file from it that contains all demos.  Add to `autoexec.cfg`: `playdemo start` and `cl_startdemos 1`. Note that demo for e2m6 is incompatible with Enhanced version
-    - optionally: `pak7.pak`: [Greenwood's mild model pack](https://alkalinequake.wordpress.com/files-links/)
-    - optionally: `progs.dat`: [CleanFixedQuakeC](https://github.com/Jason2Brownlee/QuakeCGPL)
-    - `music`: make sure you have this folder with `track02-track11.{mp3,ogg}` in there (not all Quake releases have music by default)
-- Map essentials:
-    - [100m](https://speeddemosarchive.com/quake/contests/100m.html): nice for learning bunny hopping, usually played with JoeQuake. You can find there also 110m and 400m
-    - [qdeck16](https://www.celephais.net/board/view_thread.php?id=62138): nice map for multiplayer, based on popular map from Unreal Tournament
 - `hipnotic` (Mission Pack 1: Scourge of Armagon) / `rogue` (Mission Pack 2: Dissolution of Eternity)
+    - [VisPatch](https://vispatch.sourceforge.net/): makes transparent water work
     - `pak1.pak`: [Lits and vis files](https://quakewiki.org/wiki/External_Lit_And_Vis_Files)
     - Enhanced: `pak2.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake)
     - Classic: `pak2.pak`: [Sound Bulb](https://www.slipseer.com/index.php?resources/quake-sound-bulb-higher-quality-audio-for-quake-1.110/)
+- Map essentials:
+    - [100m](https://speeddemosarchive.com/quake/contests/100m.html): nice for learning bunny hopping, usually played with JoeQuake. You can find there also 110m and 400m
+    - [qdeck16](https://www.celephais.net/board/view_thread.php?id=62138): nice map for multiplayer, based on popular map from Unreal Tournament
 
 In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.php?id=1018) mod plays nice with it.
 
@@ -80,19 +87,26 @@ In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.
 - [r/quake](https://www.reddit.com/r/quake/)
 - [Lemmy: Quake](https://lemmy.world/c/quake)
 - Discord: Quake Mapping
+- Discord: Quake Speedrunning
 - Discord: Quake Enhanced Add-on Server
 - Discord: LibreQuake
 - Discord: There are more - you can find them if you're interested in it. ComfyByTheFire has nice sounds compilation on her Discord (The Campfire)
 - Podcast: [In the Keep](https://inthekeep.com/)
 - Podcast: Quakecast (can be found on Spotfiy and other places)
+- Twitter: TODO:
+- YouTube: Quake Speedruns Explained
+- YouTube: Quake done Quick
+- YouTube: Matt's Ramblings
+- YouTube: Immorpher
+- YouTube: badsebitv
+- YouTube: Muty
+- YouTube: Kebby_Quake
+- YouTube: dumptrucks_ds
+- YouTube: GGRC
+- YouTube: Markie Music
+- YouTube: GreenwoodQuake
 - [Mod DB: Addons](https://www.moddb.com/games/quake/addons)
 - [Mod DB: Mods](https://www.moddb.com/games/quake/mods)
 - [SpeedDemosArchive](https://quake.speeddemosarchive.com/)
 - [Thingiverse](https://www.thingiverse.com/search?q=quake) - models for 3D printers
 - [The Quake Marine card model](http://home.clara.net/rogerpattenden/quake-marine.html) - I can confirm that it is still possible to order as it is 2023 and I've received 2 models. Contact by mail for quote, payment is done through PayPal using same mail as for contact
-
-## Notes
-
-- there's only `autoexec.cfg` without using `exec filename.cfg` because there is no need to keep everything separate and performance is better. You can see for your self by having a keybind that loads a few exec-s.
-- things here are constantly changing and improving, feel free to fork it and customize things your way
-- contact: sl8code (at) gmail.com
