@@ -60,7 +60,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 - Enhanced: `id1`
     - it already has remastered sounds - similar to `Sound Bulb` and `Seans Better Quality Sounds`
     - already has lits, but different than in classic
-    - has transparent water in id1 levels and it seems not that easy to change turn off alpha
+    - has transparent water in id1 levels and it seems not that easy to change and turn off alpha
     - `pak1.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/) or optionally all sounds from there except for `demon` folder
     - optionally: `pak2.pak`: [Greenwood's mild model pack](https://alkalinequake.wordpress.com/files-links/)
     - optionally: `pak3.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake) if not using `pak2.pak`
