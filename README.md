@@ -64,7 +64,7 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
     - `pak1.pak`: `sound/player/axhit2.wav` from [Mindgrid Sounds](https://gfx.quakeworld.nu/details/384/mindgridaudio-high-resolution-quake-1-sounds/) or optionally all sounds from there except for `demon` folder
     - optionally: `pak2.pak`: [Greenwood's mild model pack](https://alkalinequake.wordpress.com/files-links/)
     - optionally: `pak3.pak`: [Authentic Models](https://www.moddb.com/mods/authentic-models-for-quake) if not using `pak2.pak`
-    - optionally: `pak4.pak`: [Upgaded Armor](https://www.moddb.com/games/quake/addons/upgraded-armor-for-quake-1)
+    - optionally: `pak4.pak`: [Upgraded Armor](https://www.moddb.com/games/quake/addons/upgraded-armor-for-quake-1)
     - optionally: `progs.dat`: [Reignited](https://www.moddb.com/mods/quake-reignited) or [Copper](http://lunaran.com/copper/)
     - `../QuakeEX.kpf`: don't forget about this one as it holds translations
 - `hipnotic` (Mission Pack 1: Scourge of Armagon) / `rogue` (Mission Pack 2: Dissolution of Eternity)
