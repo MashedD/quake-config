@@ -3,6 +3,7 @@
 - there's only `autoexec.cfg` without using `exec filename.cfg` because there is no need to keep everything separate and performance is better
 - things here are constantly changing, feel free to fork it and customize your way
 - contact: sl8code (at) gmail.com
+- for newcomers and not only I recommend [Quakestarter](https://www.slipseer.com/index.php?resources/quakestarter.104/). Includes 2 engines, sane example autoexec.cfg and Windows script for setting things up and downloading/starting mods from curated list.
 
 ## Features
 
@@ -75,6 +76,18 @@ I use [PakScape](https://valvedev.info/tools/pakscape/) to create `pak` archives
 - Map essentials:
     - [100m](https://speeddemosarchive.com/quake/contests/100m.html): nice for learning bunny hopping, usually played with JoeQuake. You can find there also 110m and 400m
     - [qdeck16](https://www.celephais.net/board/view_thread.php?id=62138): nice map for multiplayer, based on popular map from Unreal Tournament
+- Mod essentials:
+    - Alkaline
+    - Alkaline Jam
+    - Arcane Dimensions
+    - Coppertone Summer Jam
+    - Coppertone Summer Jam 2
+    - Deathmatch Dimension
+    - Dimensions of the Past
+    - Dwell
+    - Re:Mobilize
+    - Tainted
+    - TODO:
 
 In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.php?id=1018) mod plays nice with it.
 
