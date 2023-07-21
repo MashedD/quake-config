@@ -3,7 +3,8 @@
 - there's only `autoexec.cfg` without using `exec filename.cfg` because there is no need to keep everything separate and performance is better
 - things here are constantly changing, feel free to fork it and customize your way
 - contact: sl8code (at) gmail.com
-- for newcomers and not only I recommend [Quakestarter](https://www.slipseer.com/index.php?resources/quakestarter.104/). Includes 2 engines, sane example autoexec.cfg and Windows script for setting things up and downloading/starting mods from curated list. Similar project: [QSS with mods and maps](https://www.reddit.com/r/quake/comments/py715s/quakespasm_spiked_with_mods_and_maps_fanpack/).
+- for newcomers and not only I recommend [Quakestarter](https://www.slipseer.com/index.php?resources/quakestarter.104/). Includes 2 engines, sane example autoexec.cfg and Windows script for setting things up and downloading/starting mods from curated list. Similar project: [QSS with mods and maps](https://www.reddit.com/r/quake/comments/py715s/quakespasm_spiked_with_mods_and_maps_fanpack/)
+- for speedrunning check out Quake package (light for starters) from [SDA](https://speeddemosarchive.com/quake/)
 
 ## Features
 
