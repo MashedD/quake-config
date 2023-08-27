@@ -84,6 +84,14 @@
 /Tenebrae/id1/music/*
 !/Tenebrae/id1/autoexec.cfg
 
+!/TyrQuake
+/TyrQuake/*
+!/TyrQuake/id1
+/TyrQuake/id1/*
+!/TyrQuake/id1/music
+/TyrQuake/id1/music/*
+!/TyrQuake/id1/autoexec.cfg
+
 !/vkQuake
 /vkQuake/*
 !/vkQuake/id1
