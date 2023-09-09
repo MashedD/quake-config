@@ -76,6 +76,14 @@
 /QuakeSpasm-Spiked/id1/music/*
 !/QuakeSpasm-Spiked/id1/autoexec.cfg
 
+!/softquake
+/softquake/*
+!/softquake/id1
+/softquake/id1/*
+!/softquake/id1/music
+/softquake/id1/music/*
+!/softquake/id1/autoexec.cfg
+
 !/Tenebrae
 /Tenebrae/*
 !/Tenebrae/id1
