@@ -2,25 +2,25 @@
 !!! Everything below is in TODO state. !!!
 ```
 
----
+----
 
 # Quake Configs
 
 This are my settings for Quake engines and notes.
 Added missing keybindings (WASD movement, ...) and extra ones (easier weapon switching, ...).
 Changed visual settings. Sometimes there is an option to set/switch with `F10` key between them.
-Note by default this key quits the game. Styles: `Default` witch engine ones,
-`Enhanced-like`, `Semi-DOSQuake` (something between Enhanced and DOSQuake) and `DOSQuake-like`.
-Removed changing fog (Enhanced: `0.025 0.576471 0.266667 0.431373`, DOSQuake: `0 0.3 0.3 0.3`).
+Note that by default this key quits the game. Styles: `Default` (for given engine),
+`Enhanced-like`, `Semi-DOSQuake` (between Enhanced and DOSQuake) and `DOSQuake-like`.
+Left fog unchanged (Enhanced: `0.025 0.576471 0.266667 0.431373`, DOSQuake: `0 0.3 0.3 0.3`).
 
 ## Why this way
 
-It is possible to put all engine into one folder (don't worry about `*.dll`-s) and share one `autoexec.cfg`.
-Some settings would be set then using different aliases or `exec filename.cfg` commands.
+It is possible to put all engines into one directory (don't worry about `*.dll`-s) and share one `autoexec.cfg`.
+Some settings can be set then using different aliases or `exec filename.cfg` commands.
 One compatibility issue is `host_maxfps 0`. In QSS works fine, but not in QS.
 Downsides: many config parts are doubled along with `*.pak` files that take space.
 On Linux one might use symlinks.
-On Windows symlinks are not properly handled by engines, but hardlinks are fine..
+On Windows symlinks are not properly handled by engines, but hardlinks are fine.
 
 ## Howto
 
@@ -32,7 +32,7 @@ Not that by default it might be installed to `%PROGRAMFILES(X86)%\GOG GalaxyGame
 Game is also available on [Steam](https://store.epicgames.com/en-US/p/quake)
 and [Epic Games Store](https://store.epicgames.com/en-US/p/quake).
 
-* [ ] Download engines
+* [ ] Download engine(s)
 
 If you don't know which one, start with [Ironwail](https://github.com/andrei-drexler/ironwail).
 
@@ -52,8 +52,8 @@ hostname "Your Name"
 
 ## Other configs
 
-- [SDA](https://speeddemosarchive.com/quake/) - select `Downloads` and get `Quake (light bersion)` package.
-- [GitHub; Melbo](https://github.com/m-e-l-b-o/autoexec)
+- [SDA](https://speeddemosarchive.com/quake/) - select `Downloads` and get `Quake (light version)` package.
+- [GitHub: Melbo](https://github.com/m-e-l-b-o/autoexec)
 - [Discord: The Campfire](https://discord.gg/YdfzYBEjP5) - ComfyByTheFire shares her config there.
 
 # Engines
@@ -73,8 +73,8 @@ hostname "Your Name"
 ## Best visuals (subjectively)
 
 TODO:
-1. [FTE]()
-2. [Zircon]() + [Combat+]()
+1. [FTE](https://fte.triptohell.info/)
+2. [Zircon]() + [Quake 1.5] + [Combat+]()
 3. [Darkplaces]() + RTLights from Slipseer
 4. [Epsilon Build]()
 5. [Quakespasm-Spiked]() + [Play_Q]() or [TribalFX]()
@@ -141,23 +141,13 @@ Future:
 - duke, blood, ...
 
 
+https://www.pcgamingwiki.com/wiki/Quake
+https://quakeone.com/forum/quake-mod-releases/finished-works/283201-vanilla-quake-fixes
+http://quakeone.com/forum/quake-mod-releases/finished-works/6241-small-mod-compilation
 
 
 # Mapping essentials
     Dumptruck
-
-# How to effectively: Quake
-
-Yes, the title has an error. It is to get your attention.
-This guide is not only for beginners.
-
-## Get Quake
-
-You can buy Quake on:
-- [GOG](https://www.gog.com/en/game/quake_the_offering),
-- [Steam](https://store.steampowered.com/app/2310/Quake/),
-- [Epic](https://store.epicgames.com/en-US/p/quake),
-- and other places.
 
 ## Console
 
@@ -209,6 +199,16 @@ Other:
 - NetQuake.io (`https://www.netquake.io/`) - play in a browser.
 - [QuakeDroid](http://quakeone.com/quakedroid/) - Quake for Android
 - [Quad Touch](https://play.google.com/store/apps/details?id=com.opentouchgaming.quadtouch&gl=US) - best way to play Quake on Android. I've tried with Bluetooth controller 8BitDo SN30 Pro+ and it works.
+
+Windows 98 compatible, tested on 233MHz: (TODO: not yet)
+
+- WinQuake
+- GLQuake
+- Engoo
+- [QDOS](http://dk.toastednet.org/QDOS/)
+- FitzQuake
+- Makaqu
+- ToChris
 
 IF you want to know more about engines I recommend an article:
 [Quake Engines & Source Ports: A Beginners Guide](https://www.slipseer.com/index.php?threads/quake-engines-source-ports-a-beginners-guide.11/).
@@ -570,11 +570,15 @@ In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.
 
 ### Communities and links
 
+TODO: Some of them are in forum threads, best to link to them
+
 - [Slipseer](https://www.slipseer.com/)
 - [Quaddicted](https://www.quaddicted.com/)
 - [func_MsgBoard](https://www.celephais.net/board/forum.php)
 - [r/quake](https://www.reddit.com/r/quake/)
 - [Lemmy: Quake](https://lemmy.world/c/quake)
+- <https://lemmy.ml/c/quake@lemmy.world>
+- <https://quakeone.com/>
 - Discord: Quake Mapping
 - Discord: Quake Speedrunning
 - Discord: Quake Enhanced Add-on Server
@@ -583,9 +587,11 @@ In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.
 - Podcast: [In the Keep](https://inthekeep.com/)
 - Podcast: Quakecast (can be found on Spotfiy and other places)
 - Twitter: TODO:
-- YouTube: Quake Speedruns Explained
-- YouTube: Quake done Quick
-- YouTube: Matt's Ramblings
+
+//- YouTube: Quake Speedruns Explained
+//- YouTube: Quake done Quick
+//- YouTube: Matt's Ramblings
+
 - YouTube: Immorpher
 - YouTube: badsebitv
 - YouTube: Muty
@@ -599,3 +605,7 @@ In case of using QSS engine [Play_Q](https://www.quaddicted.com/forum/viewtopic.
 - [SpeedDemosArchive](https://quake.speeddemosarchive.com/)
 - [Thingiverse](https://www.thingiverse.com/search?q=quake) - models for 3D printers
 - [The Quake Marine card model](http://home.clara.net/rogerpattenden/quake-marine.html) - I can confirm that it is still possible to order as it is 2023 and I've received 2 models. Contact by mail for quote, payment is done through PayPal using same mail as for contact
+- Youtube Channels - https://www.slipseer.com/index.php?threads/quake-youtube-channels-and-videos.147/#post-2497
+- bot archive https://github.com/Jason2Brownlee/QuakeBotArchive/
+- python bsp https://www.youtube.com/watch?v=sFSLY7n3YsM
+- https://www.quaddicted.com/forum/viewtopic.php?pid=8292#p8292

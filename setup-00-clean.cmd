@@ -10,4 +10,11 @@ del /S ^
     stdout.txt ^
     config.cfg ^
     ironwail.cfg ^
-    fte.cfg
+    fte.cfg ^
+    vkQuake.cfg ^
+    zircon_history.txt ^
+    iplog.dat
+:: FIXME:
+@REM del /S /Q screenshots
+@REM del /S /Q autosave quick.sav
+
