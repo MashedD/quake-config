@@ -12,6 +12,7 @@ begin main
     action "browse q2servers.com" pushmenu servers "+http://q2servers.com/?raw=2"
     action "start server" pushmenu startserver
     blank
+    action "mods" pushmenu mods
     action "play: bots" "game 3zb2; cheats 1; exec game.cfg"
     action "play: jump: q2dm1" "game jump; map q2dm1"
     action "play: jump: edge_easy" "game jump; map edge_easy"
@@ -30,6 +31,8 @@ begin game
     action "opendtm: ready" "ready; forcemenuoff"
     action "opentdm: menu" "menu; forcemenuoff"
     action "practice rocket jumps" "god; give rocket launcher; give grenades 999; give rockets 999; forcemenuoff"
+    blank
+    action "browse demos" pushmenu demos
     blank
     action "quit" quit
 end
@@ -61,5 +64,15 @@ begin gameflags
     toggle "infinite ammo" dmflags 13
     toggle "fixed FOV" dmflags 15
     toggle "quad drop" dmflags 14
+end
+
+begin mods
+    title "Mods"
+    action "quake2" "game ''"
+    action "3zb2" "game 3zb2"
+    action "action" "game action"
+    action "jump" "game jump"
+    action "openffa" "game openffa"
+    action "opentdm" "game opentdm"
 end
 
