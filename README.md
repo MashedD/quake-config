@@ -6,9 +6,9 @@ Configs for games:
 
 # q2pro
 
-Paks were downloaded from <https://quake2download.pl>.
+Paks were downloaded from [quake2download.pl](https://quake2download.pl).
 Not sure if I can upload them, so they were not added to this repo,
-see <.gitignore> for full list.
+see `.gitignore` for full list.
 Mods used:
 
 - [3zb2-zigflag](https://github.com/DirtBagXon/3zb2-zigflag)
@@ -20,7 +20,7 @@ Mods used:
 
 # q2repro
 
-Paks were downloaded from Tastyspleen.net Discord.
+Paks were downloaded from [tastyspleen.net](https://tastyspleen.net) Discord.
 Not sure if I can upload them, so they were not added to this repo,
-see <.gitignore> for full list.
+see `.gitignore` for full list.
 
