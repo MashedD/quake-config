@@ -75,13 +75,5 @@ begin mods
     action "jump" "game jump"
     action "openffa" "game openffa"
     action "opentdm" "game opentdm"
-
-//crosshair "4"
-//set cl_gun "0"
-//set hand "2"
-// All other:
-//crosshair "1"
-//set cl_gun "1"
-//set hand "0"
 end
 
