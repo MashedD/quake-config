@@ -10,6 +10,7 @@ cd "$GAME_PATH"
 TOUCHPAD_NAME=${TOUCHPAD_NAME:-"ELAN0300:00 04F3:3206 Touchpad"}
 xinput disable "$TOUCHPAD_NAME"
 
+#WIDTH=800 HEIGHT=600 \
 EXEC=""
 [ -n "$(command -v gamemoderun 2>/dev/null)" ] && EXEC="$EXEC gamemoderun"
 [ -n "$(command -v gamescope 2>/dev/null)" ] && EXEC="$EXEC gamescope -W $WIDTH -H $HEIGHT -r $REFRESH --force-grab-cursor -f --"

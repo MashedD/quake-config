@@ -24,6 +24,7 @@ begin game
     action "disconnect" "disconnect"
     blank
     action "practice rocket jumps" "god; give rocket launcher; give grenades 999; give rockets 999; forcemenuoff"
+    action "tpp" "toggle cl_thirdperson"
     blank
     action "browse demos" pushmenu demos
     blank
@@ -33,7 +34,6 @@ end
 begin startserver
     title "Start server"
     strings "initial map" _ui_nextserver $$com_maplist
-    values "rules" coop deathmatch cooperative
     field --integer --status "0 - no time limit" --width 3 "time limit" timelimit
     field --integer --status "0 - no frag limit" --width 3 "frag limit" fraglimit
     field --integer --width 3 "max players" maxclients
