@@ -1,0 +1,72 @@
+background conback
+font conchars
+cursor ch1
+
+color normal black
+color selection blue
+color disabled white
+
+begin main
+    title "QUAKE 2: 3zb2"
+    action "browse address book" pushmenu servers "favorites://" "file:///servers.lst" "broadcast://"
+    action "browse q2servers.com" pushmenu servers "+http://q2servers.com/?raw=2"
+    action "start server" pushmenu startserver
+    blank
+    action "mods" pushmenu mods
+    blank
+    action "browse demos" pushmenu demos
+    blank
+    action "quit" quit
+end
+
+begin game
+    background #0000ff80
+    action "disconnect" "disconnect"
+    blank
+    action "practice rocket jumps" "god; give rocket launcher; give grenades 999; give rockets 999; forcemenuoff"
+    blank
+    action "browse demos" pushmenu demos
+    blank
+    action "quit" quit
+end
+
+begin startserver
+    title "Start server"
+    strings "initial map" _ui_nextserver $$com_maplist
+    values "rules" coop deathmatch cooperative
+    field --integer --status "0 - no time limit" --width 3 "time limit" timelimit
+    field --integer --status "0 - no frag limit" --width 3 "frag limit" fraglimit
+    field --integer --width 3 "max players" maxclients
+    field --width 16 "host name" hostname
+    blank
+    action --align "deathmatch flags..." pushmenu gameflags
+    action --align "begin game!" "forcemenuoff; if $coop == 1 then deathmatch 0 else deathmatch 1; map $_ui_nextserver force"
+end
+
+begin gameflags
+    title "Deathmatch Flags"
+    toggle "falling damage" dmflags ~3
+    toggle "weapons stay" dmflags 2
+    toggle "instant powerups" dmflags 4
+    toggle "allow powerups" dmflags ~1
+    toggle "allow health" dmflags ~0
+    toggle "allow armor" dmflags ~11
+    toggle "spawn farthest" dmflags ~9
+    toggle "same map" dmflags 5
+    toggle "force respawn" dmflags 10
+    toggle "infinite ammo" dmflags 13
+    toggle "fixed FOV" dmflags 15
+    toggle "quad drop" dmflags 14
+end
+
+begin mods
+    title "Mods"
+    action "quake2" "game ''"
+    action "3zb2" "game 3zb2; exec addbot.cfg"
+    action "action" "game action"
+    action "dday" "game dday"
+    action "jump" "game jump"
+    action "openffa" "game openffa"
+    action "opentdm" "game opentdm"
+end
+
