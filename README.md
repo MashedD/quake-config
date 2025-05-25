@@ -12,7 +12,6 @@ see `.gitignore` for full list.
 Mods used:
 
 - [3zb2-zigflag](https://github.com/DirtBagXon/3zb2-zigflag)
-- [action](https://www.aq2world.com/) - don't remember, probably from here, will update later
 - [dday](https://github.com/PowaBanga/DDaynormandyFPS)
 - [jump](https://github.com/Grish44/q2jump-global-integration)
 - [openffa](https://github.com/skullernet/openffa)
