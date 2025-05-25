@@ -69,6 +69,8 @@ end
 begin mods
     title "Mods"
     action "quake2" "game ''"
+    action "single player" "game baseq2-sp"
+    action "single player vhs" "game baseq2-sp-vhs"
     action "3zb2" "game 3zb2"
     action "dday" "game dday"
     action "jump" "game jump"
