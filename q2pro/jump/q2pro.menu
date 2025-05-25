@@ -61,7 +61,6 @@ begin mods
     title "Mods"
     action "quake2" "game ''"
     action "3zb2" "game 3zb2"
-    action "action" "game action"
     action "dday" "game dday"
     action "jump" "game jump"
     action "openffa" "game openffa"
