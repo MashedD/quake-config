@@ -1,0 +1,13 @@
+diff --git a/GNUmakefile b/GNUmakefile
+index 6d12f4f..1ec8281 100644
+--- a/GNUmakefile
++++ b/GNUmakefile
+@@ -19,7 +19,7 @@ CC = gcc -std=gnu99
+ 
+ cc = gcc
+ 
+-CFLAGS =-O2 -fPIC -DARCH="$(ARCH)" -DLINUX -DSTDC_HEADERS -I/usr/include
++CFLAGS =-O2 -fPIC -DARCH="$(ARCH)" -DLINUX -DSTDC_HEADERS -I/usr/include -Wno-int-conversion
+ LDFLAGS = -ldl -lm -shared
+ 
+ ifeq ($(ARCH),i386)

@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index ff30cb7..440bdf5 100644
+--- a/Makefile
++++ b/Makefile
+@@ -31,7 +31,7 @@ ARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ -e s/arm.*/ar
+ #ARCH=x86_64
+ 
+ CC=gcc
+-BASE_CFLAGS="-Dstricmp=strcasecmp" "-fcommon"
++BASE_CFLAGS="-Dstricmp=strcasecmp" "-Dstrcasecmp=strcasecmp" "-fcommon" -std=gnu99 -Wno-incompatible-pointer-types -D_GNU_SOURCE
+ 
+ #CFLAGS_RELEASE=$(BASE_CFLAGS) -S
+ 

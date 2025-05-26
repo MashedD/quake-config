@@ -1,0 +1,32 @@
+diff --git a/dday/autoexec.cfg b/dday/autoexec.cfg
+index 8d6526a0..fffeab2c 100644
+--- a/dday/autoexec.cfg
++++ b/dday/autoexec.cfg
+@@ -110,4 +110,5 @@ bind KP_UPARROW "shout trump"
+ set sv_changemapcmd mode_game_view
+ exec alias.txt
+ 
++set ui_open "1"
+ 
+diff --git a/dday/q2pro.menu b/dday/q2pro.menu
+index 91e9150e..de31b96c 100644
+--- a/dday/q2pro.menu
++++ b/dday/q2pro.menu
+@@ -47,8 +47,7 @@ begin <menuname>
+ end
+ */
+ 
+-
+-cursor 3_cursor3
++cursor crosshair
+ background conback
+ font conchars
+ weapon w_railgun.md2
+@@ -232,6 +231,7 @@ begin main
+     bitmap m_main_options pushmenu options
+     bitmap m_main_video pushmenu video
+     bitmap m_main_quit quit
++    action "<< QUAKE 2" "game ''"
+ end
+ 
+ begin game

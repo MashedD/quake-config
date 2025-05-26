@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 4d556fd..ed78e48 100644
+--- a/Makefile
++++ b/Makefile
+@@ -19,7 +19,7 @@ WINDRES ?= windres
+ STRIP ?= strip
+ RM ?= rm -f
+ 
+-CFLAGS ?= -O2 -fno-strict-aliasing -g -Wall -Wno-attribute-warning -Wno-unused-but-set-variable -MMD $(INCLUDES)
++CFLAGS ?= -O2 -fno-strict-aliasing -g -Wall -Wno-attribute-warning -Wno-unused-but-set-variable -MMD -std=gnu99 $(INCLUDES)
+ LDFLAGS ?= -shared
+ LIBS ?=
+ 

@@ -1,0 +1,27 @@
+diff --git a/Makefile b/Makefile
+index ac62468..b00ccc4 100644
+--- a/Makefile
++++ b/Makefile
+@@ -79,7 +79,8 @@ CFLAGS := -O2 -fno-strict-aliasing -fomit-frame-pointer \
+ 		  -Wall -pipe -g -fwrapv -arch i386 -arch x86_64
+ else
+ CFLAGS := -O2 -fno-strict-aliasing -fomit-frame-pointer \
+-		  -Wall -pipe -g -MMD -fwrapv -fPIC -msse2 -mfpmath=sse -Wno-unused-result
++		  -Wall -pipe -g -MMD -fwrapv -fPIC -msse2 -mfpmath=sse -Wno-unused-result \
++		  -std=gnu99
+ endif
+ 
+ # ----------
+diff --git a/src/bot/func.c b/src/bot/func.c
+index 75f33e7..da2d393 100644
+--- a/src/bot/func.c
++++ b/src/bot/func.c
+@@ -83,7 +83,7 @@ void Load_BotInfo()
+ 
+ 	//botlist value
+ 	botlist = gi.cvar ("botlist", "default", CVAR_SERVERINFO | CVAR_LATCH);
+-	gamepath = gi.cvar ("game", "0", CVAR_NOSET);
++	gamepath = gi.cvar ("game", "0", CVAR_LATCH);
+ 
+ 	//load info
+ 	//sprintf(Buff,"%s/3ZBConfig.cfg",gamepath->string);

@@ -1,0 +1,68 @@
+diff --git a/g_local.h b/g_local.h
+index c870048..b167530 100644
+--- a/g_local.h
++++ b/g_local.h
+@@ -1353,10 +1353,10 @@ struct edict_s
+ 
+ };
+ 
+-int ESF_debug;
++extern int ESF_debug;
+ 
+ //ZOID
+ #include "g_ctf.h"
+ //ZOID
+ #include "jumpmod.h"
+-#include "global.h"
+\ No newline at end of file
++#include "global.h"
+diff --git a/jumpmod.c b/jumpmod.c
+index 9d20221..da5845b 100644
+--- a/jumpmod.c
++++ b/jumpmod.c
+@@ -13,6 +13,7 @@
+ #include <stdlib.h>
+ #include <string.h>
+ 
++html_data_t html_data;
+ 
+ int curclients = 0;
+ int activeclients = 0;
+diff --git a/jumpmod.h b/jumpmod.h
+index 5eeecfa..977f789 100644
+--- a/jumpmod.h
++++ b/jumpmod.h
+@@ -748,7 +748,6 @@ typedef struct {
+ 	char tplate[SIZEOF_HTML_BUFFER];
+ 	int len;
+ } html_data_t;
+-html_data_t html_data;
+ 
+ #define HTML_TEMPLATE_POSITION "$template_position$"
+ #define HTML_TEMPLATE_MAPBESTTIME "$template_mapbesttime$"
+diff --git a/makefile b/makefile
+index cf7feae..4ea7a32 100644
+--- a/makefile
++++ b/makefile
+@@ -4,7 +4,7 @@
+ CC = gcc
+ # CFLAGS = -Wall -fPIC -Dstricmp=strcasecmp
+ # CFLAGS = -Wall -fPIC -Dstricmp=strcasecmp -Wno-unused-result
+-CFLAGS = -w -fPIC -Dstricmp=strcasecmp -Wno-unused-result
++CFLAGS = -w -fPIC -Dstricmp=strcasecmp -Wno-unused-result -Wno-implicit-function-declaration -Wno-incompatible-pointer-types
+ LDFLAGS = -ldl -lm -shared -lcurl
+ 
+ # Project files
+diff --git a/p_client.c b/p_client.c
+index e9d4cda..61c8cd2 100644
+--- a/p_client.c
++++ b/p_client.c
+@@ -21,6 +21,8 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ //#include "p_hook.h"
+ #include "m_player.h"
+ 
++int ESF_debug;
++
+ void SP_misc_teleporter_dest (edict_t *ent);
+ 
+ //

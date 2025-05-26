@@ -8,11 +8,11 @@ color disabled white
 
 begin main
     title "QUAKE 2: openffa"
-    action "browse address book" pushmenu servers "favorites://" "file:///servers.lst" "broadcast://"
-    action "browse q2servers.com" pushmenu servers "+http://q2servers.com/?raw=2"
+    action "mods" pushmenu mods
     action "start server" pushmenu startserver
     blank
-    action "mods" pushmenu mods
+    action "browse address book" pushmenu servers "favorites://" "file:///servers.lst" "broadcast://"
+    action "browse q2servers.com" pushmenu servers "+http://q2servers.com/?raw=2"
     blank
     action "browse demos" pushmenu demos
     blank
