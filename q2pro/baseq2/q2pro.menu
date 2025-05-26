@@ -23,12 +23,6 @@ begin game
     background #0000ff80
     action "disconnect" "disconnect"
     blank
-    // TODO: use separate include for menu files in mod folders
-    // so for example "opentdm" entries will show only with "opentdm" mod
-    action "opendtm: ready" "ready; forcemenuoff"
-    action "opentdm: menu" "menu; forcemenuoff"
-    action "practice rocket jumps" "god; give rocket launcher; give grenades 999; give rockets 999; forcemenuoff"
-    blank
     action "browse demos" pushmenu demos
     blank
     action "quit" quit
