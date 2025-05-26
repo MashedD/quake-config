@@ -13,9 +13,6 @@ begin main
     action "start server" pushmenu startserver
     blank
     action "mods" pushmenu mods
-    //action "play: bots" "game 3zb2; cheats 1; exec game.cfg"
-    //action "play: jump: q2dm1" "game jump; map q2dm1"
-    //action "play: jump: edge_easy" "game jump; map edge_easy"
     blank
     action "browse demos" pushmenu demos
     blank
