@@ -1,10 +1,4 @@
-background conback
-font conchars
-cursor ch1
-
-color normal black
-color selection blue
-color disabled white
+include q2pro-common.menu
 
 begin main
     title "QUAKE 2"
@@ -26,46 +20,5 @@ begin game
     action "browse demos" pushmenu demos
     blank
     action "quit" quit
-end
-
-begin startserver
-    title "Start server"
-    strings "initial map" _ui_nextserver $$com_maplist
-    values "rules" coop deathmatch cooperative
-    field --integer --status "0 - no time limit" --width 3 "time limit" timelimit
-    field --integer --status "0 - no frag limit" --width 3 "frag limit" fraglimit
-    field --integer --width 3 "max players" maxclients
-    field --width 16 "host name" hostname
-    blank
-    action --align "deathmatch flags..." pushmenu gameflags
-    action --align "begin game!" "forcemenuoff; if $coop == 1 then deathmatch 0 else deathmatch 1; map $_ui_nextserver force"
-end
-
-begin gameflags
-    title "Deathmatch Flags"
-    toggle "falling damage" dmflags ~3
-    toggle "weapons stay" dmflags 2
-    toggle "instant powerups" dmflags 4
-    toggle "allow powerups" dmflags ~1
-    toggle "allow health" dmflags ~0
-    toggle "allow armor" dmflags ~11
-    toggle "spawn farthest" dmflags ~9
-    toggle "same map" dmflags 5
-    toggle "force respawn" dmflags 10
-    toggle "infinite ammo" dmflags 13
-    toggle "fixed FOV" dmflags 15
-    toggle "quad drop" dmflags 14
-end
-
-begin mods
-    title "Mods"
-    action "quake2" "game ''"
-    action "single player" "game baseq2-sp"
-    action "single player vhs" "game baseq2-sp-vhs"
-    action "3zb2" "game 3zb2"
-    action "dday" "game dday"
-    action "jump" "game jump"
-    action "openffa" "game openffa"
-    action "opentdm" "game opentdm"
 end
 
