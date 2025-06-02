@@ -13,7 +13,7 @@ xinput disable "$TOUCHPAD_NAME"
 EXEC=""
 [ -n "$(command -v gamemoderun 2>/dev/null)" ] && EXEC="$EXEC gamemoderun"
 [ -n "$(command -v gamescope 2>/dev/null)" ] && \
-    WIDTH=800 HEIGHT=600 \
+    #WIDTH=800 HEIGHT=600 \
     EXEC="$EXEC gamescope -W $WIDTH -H $HEIGHT -r $REFRESH --force-grab-cursor -f --"
 $EXEC ./q2pro +set homedir . "$@"
 

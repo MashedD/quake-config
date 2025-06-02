@@ -45,5 +45,6 @@ begin mods
     action "dday" "game dday"
     action "openffa" "game openffa"
     action "opentdm" "game opentdm"
+    action "chaos" "game chaos"
 end
 

@@ -17,7 +17,7 @@ begin game
     background #0000ff80
     action "add bot" "spawn1; forcemenuoff"
     action "god" "god; forcemenuoff"
-    action "practice rocket jumps" "give rocket launcher; give grenades 999; give rockets 999; forcemenuoff"
+    action "practice rocket jumps" "give rocket launcher; give grenades 999; give rockets 999; give railgun; give slugs 999; forcemenuoff"
     action "tpp" "toggle cl_thirdperson"
     blank
     action "browse address book" pushmenu servers "favorites://" "file:///servers.lst" "broadcast://"
