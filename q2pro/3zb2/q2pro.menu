@@ -17,8 +17,9 @@ begin game
     background #0000ff80
     action "add bot" "spawn1; forcemenuoff"
     action "god" "god; forcemenuoff"
-    action "practice rocket jumps" "give rocket launcher; give grenades 999; give rockets 999; give railgun; give slugs 999; forcemenuoff"
+    action "practice rocket jumps" "give grenade launcher; give rocket launcher; give grenades 999; give rockets 999; give railgun; give slugs 999; forcemenuoff"
     action "tpp" "toggle cl_thirdperson"
+    action "change map" pushmenu maps
     blank
     action "browse address book" pushmenu servers "favorites://" "file:///servers.lst" "broadcast://"
     action "browse q2servers.com" pushmenu servers "+http://q2servers.com/?raw=2"
@@ -29,3 +30,9 @@ begin game
     action "quit" quit
 end
 
+begin maps
+    action "q2dm1" "map q2dm1"
+    action "q2rdm1" "map q2rdm1"
+    action "q2duel1" "map q2duel1"
+    action "ptrip" "map ptrip"
+end
