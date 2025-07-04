@@ -1,3 +1,3 @@
 @echo off
-start "" q2pro64.exe +set homedir ./ %*
+start "" q2repro64.exe +set homedir ./ %*
 
